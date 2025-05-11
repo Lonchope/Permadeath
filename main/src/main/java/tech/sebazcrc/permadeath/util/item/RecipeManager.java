@@ -138,7 +138,7 @@ public class RecipeManager {
         ShapedRecipe recipe = new ShapedRecipe(key, s);
         recipe.shape(" S ", " D ", " S ");
         recipe.setIngredient('S', Material.SHULKER_SHELL);
-        recipe.setIngredient('D', Material.DIAMOND_BLOCK);
+        recipe.setIngredient('D', Material.BEDROCK);
         instance.getServer().addRecipe(recipe);
     }
 
@@ -187,12 +187,12 @@ public class RecipeManager {
         ShapedRecipe recipe = new ShapedRecipe(key, s);
         recipe.shape("DGB", "RSE", "NOL");
         recipe.setIngredient('D', Material.DIAMOND);
-        recipe.setIngredient('G', Material.GOLD_INGOT);
-        recipe.setIngredient('B', Material.BONE_BLOCK);
+        recipe.setIngredient('G', Material.GOLD_APPLE);
+        recipe.setIngredient('B', Material.PHANTOM_MEMBRANE);
         recipe.setIngredient('R', Material.BLAZE_ROD);
-        recipe.setIngredient('S', Material.HEART_OF_THE_SEA);
-        recipe.setIngredient('E', Material.END_STONE);
-        recipe.setIngredient('N', Material.NETHER_BRICKS);
+        recipe.setIngredient('S', Material.CONDUIT);
+        recipe.setIngredient('E', Material.END_STONE_BRICKS);
+        recipe.setIngredient('N', Material.RED_NETHER_BRICKS);
         recipe.setIngredient('O', Material.OBSIDIAN);
         recipe.setIngredient('L', Material.LAPIS_BLOCK);
         instance.getServer().addRecipe(recipe);
